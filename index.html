@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <title>Painel de Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box-left">
+            <h1>Novidades</h1>
+            <ul>
+                <li>Novos mapas</li>
+                <li>Correção de bugs</li>
+                <li>Novos personagens</li>
+            </ul>
+        </div>
+        <div class="box-right">
+            <img src="imgbin_logo-anime-otaku-yuri-nami-png.png" alt="Logo">
+            <div class="inputs">
+                <input type="text" placeholder="Login" >
+                <input type="password" placeholder="Senha">
+                <input type="email" placeholder="E-mail">
+                
+            </div>
+            <div class="btn">
+                <button>Entrar no mundo</button>
+            </div>
+            <div class="password">
+                <input type="checkbox" name="" id="">
+                <span>Lembrar senha?</span>
+                <a href="#" class="esqueceu">Esqueceu sua senha?</a>
+                
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div id="modal" class="modal-container">
+        <div class="con-modal">
+            <button class="close">x</button>
+            <h3>Alterar senha:</h3>
+            <form>
+                <input type="password" class="modal-input" placeholder="Nova Senha">
+                <input type="password" class="modal-input" placeholder="Confirmar nova senha">
+                <button class="save">Salvar senha</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
